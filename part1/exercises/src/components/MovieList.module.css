@@ -1,7 +1,11 @@
 .movieText {
-   color: black;
+   color: rgb(18, 69, 178);
+   text-align: left;
+   font-size: large;
 }
 
 .movieHeading {
-   color: black;
+   text-align: left;
+   background: linear-gradient(rgb(14, 182, 212), white);
+   color: rgb(18, 69, 178);
 }
