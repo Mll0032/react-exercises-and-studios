@@ -8,8 +8,8 @@ import HobbyLinks from './components/HobbyLinks.jsx';
 function App() {
   return (
     <div className="App">
-      <MovieList />
       <ChoresList />
+      <MovieList />
       <BookList />
       <HobbyLinks />
     </div>
