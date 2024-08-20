@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <div className="recipePhotoBLock">
+        <div className="recipePhotoBlock">
         <RecipePhoto />
         <div>
           <RecipeDescription />
