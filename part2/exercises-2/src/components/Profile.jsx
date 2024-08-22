@@ -3,7 +3,8 @@ import Button from './Button';
 import oceans from './oceans.json'
 
 const listItem = oceans.map(ocean =>
-      <div key={ocean.id}>
+      <div key={ocean.id} className={`${ocean.fishCheck === "true" ? "isAFish" : "profile"}`}>
+         <h1>{ocean.name}</h1>
          <img src={ocean.image} alt={ocean.name} className="img" />
       </div>
    )
@@ -13,7 +14,9 @@ function Profile()
    
    return(
       <>
+      
       <ul>
+         
          {listItem}
       </ul>
          <Button />
