@@ -1,7 +1,10 @@
 import recipedata from "./recipe.json";
+const recipeInfo = recipedata
 
 function RecipeName() {
-  return recipedata;
+  return (
+    <h1>Recipe Name Placeholder</h1>
+  )
 }
 
 export default RecipeName;

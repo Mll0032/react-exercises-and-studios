@@ -1,7 +1,14 @@
-function ClickedButton() {
-  return;
-}
 
+function ClickedButton() {
+  function handleClick() {
+    alert("You are unpining this!");
+  }
+  return (
+    <button id="clickedButton" onClick={handleClick}>
+      Saved
+    </button>
+  );
+}
 export default ClickedButton;
 
 //create alert to inform user that the pin has been saved
