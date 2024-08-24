@@ -1,9 +1,8 @@
 import recipedata from "./recipe.json";
-const recipeInfo = recipedata
 
 function RecipeName() {
   return (
-    <h1>Recipe Name Placeholder</h1>
+    <h1>{recipedata[0].name}</h1>
   )
 }
 
