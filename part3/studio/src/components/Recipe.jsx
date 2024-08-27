@@ -1,9 +1,17 @@
 import { useState } from 'react';
+// The recipe’s title: Sushi Bake Onigiri (Rice Balls)
+// A short description of the recipe The onigiri filling used in this recipe is a simplified take on sushi bake. Small portions of sushi bake are baked and used as the onigiri filling.
+//The filling does not require baking, however I wouldn’t be able to call it a sushi bake if I didn’t! The filling can be added to the onigiri without cooking and will be just as delicious.
+// Five ingredients used in the recipe: imitation crab, shrimp, cream chees, rice, nori seaweed
+// A link to a photo from the recipe: https://i0.wp.com/mariellamahal.com/wp-content/uploads/2023/03/featured-image_1.2.3.jpg?resize=1024%2C1536&ssl=1
+// A link to a photo of the recipe’s author: https://i0.wp.com/mariellamahal.com/wp-content/uploads/2022/06/DSC01168-scaled.jpeg?resize=1229%2C1536&ssl=1
+// The author’s name: Mariella Mahal
+// A link to the author’s website: https://mariellamahal.com/sushi-bake-onigiri-rice-balls/
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://mariellamahal.com/sushi-bake-onigiri-rice-balls/";
+   let authorPhoto = "https://i0.wp.com/mariellamahal.com/wp-content/uploads/2022/06/DSC01168-scaled.jpeg?resize=1229%2C1536&ssl=1";
+   let authorName = "Mariella Mahal";
 
    return (
       <div>
@@ -17,7 +25,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["imitation crab", "shrimp", "cream cheese", "rice", "nori seaweed"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -49,7 +57,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://i0.wp.com/mariellamahal.com/wp-content/uploads/2023/03/featured-image_1.2.3.jpg?resize=1024%2C1536&ssl=1" alt="" className="imageUpdates"/>
    );
 }
 
@@ -63,3 +71,4 @@ export default function RecipeDisplay () {
       </div>
    );
 }
+
